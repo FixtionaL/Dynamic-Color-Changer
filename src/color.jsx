@@ -24,6 +24,7 @@ function Dropdown(colors) {
                         <div className="dropdown-item" onClick={() => {
                             document.getElementById('noob').style.backgroundColor = color.value ; 
                             document.getElementById("label").innerHTML = color.label; 
+                            document.getElementById('hehe').style.backgroundColor = color.value; 
                             document.getElementById('heading').style.color = color.value; 
                             setIsOpen(false);
                             }}>
