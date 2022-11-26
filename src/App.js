@@ -15,7 +15,7 @@ function App() {
     ];
     return (
         <div className="App">
-            <h1 className='mainH'>Dynamic Color Changer</h1>
+            <h1 id='heading' className='mainH'>Dynamic Color Changer</h1>
             <Dropdown options={options} />
             <div className="box">
                 <div id='noob' className='area'>Magic Box</div> 
